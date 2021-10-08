@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card-lwin {
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.loun {
+  width: 100%;
+  height: 650px;
+  background-color: #141414;
+}
+
+.mimou {
+  width: 250px;
+  height: 250px;
+  margin-top: 40px;
+}
+
+.hed {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #141414;
+}
+h1 {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boudi {
+  background-image: url(https://www.photocase.com/photos/2136640-autumn-nature-background-with-falling-baun-leaves-photocase-stock-photo-large.jpeg);
 }
